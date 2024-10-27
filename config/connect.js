@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://yousseflaribi2004:youssef19072004@isetexams.smmez.mongodb.net/')
+mongoose.connect('mongodb://localhost:27017/ISETIE')
     .then( 
         ()=>{console.log('Connected to MongoDB Atlas');}
     )
